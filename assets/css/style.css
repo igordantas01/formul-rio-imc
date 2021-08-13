@@ -22,13 +22,12 @@ body {
 
 table td {
     border: 3px solid rgb(187, 187, 187); 
-    padding: 3px 55px;
-    width: -150px;
-    
+    padding: 3px;
     text-align: center;
 }
 table {
     border-collapse: collapse; 
+width: 100%;
 }
 
 
