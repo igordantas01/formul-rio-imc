@@ -1,8 +1,7 @@
-//tirar o envio do formulário
 const form = document.querySelector ('#formulario');
 
 form.addEventListener('submit', function (e) {
-    e.preventDefault();
+    e.preventDefault();              //tirar o envio do formulário
     const inputPeso = e.target.querySelector('#peso');
     const inputAltura = e.target.querySelector('#altura');
   
@@ -28,7 +27,7 @@ const msg = `seu IMC é ${imc} (${nivelImc}) `;
 
 function getNivelImc (imc) {
 const nivel = ['abaixo do peso', 'peso normal', 'sobrepeso', 'obesidade grau 1', 
-'obesidade grau 2', 'obesidade grau 3'];
+'obesidade grau 2', 'obesidade grau 3'];     //uma array
 
 if (imc >= 39.9) return nivel[5];
 if (imc >= 34.9) return nivel[4];

@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 :root {
-    --primary-color: rgb(172, 172, 172);
+    --primary-color: rgb(131, 216, 255);
     --primary-color-dark: rgb(44, 44, 44);
 }
 
@@ -17,6 +17,23 @@ body {
     font-size: 1.3em;
     line-height: 1.5em;
 }
+
+
+
+table td {
+    border: 3px solid rgb(187, 187, 187); 
+    padding: 3px 55px;
+    width: -150px;
+    
+    text-align: center;
+}
+table {
+    border-collapse: collapse; 
+}
+
+
+
+
 .container {
     max-width: 640px;
     margin: 50px auto;
